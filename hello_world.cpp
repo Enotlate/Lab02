@@ -1,9 +1,8 @@
 # include <iostream>
-using namespace std;
 int main(){
-	string dog_name;
-	cout << "Enter your dog name: ";
-	cin >> dog_name;
-	cout << "Hello world from @" << dog_name << endl;
+	std::string dog_name;
+	std:cout << "Enter your dog name: ";
+	std:cin >> dog_name;
+	std:cout << "Hello world from @" << dog_name << std::endl;
 	return 0;
 }
